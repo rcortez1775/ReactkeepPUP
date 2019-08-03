@@ -1,10 +1,16 @@
 import { Component } from "react";
 import React from 'react';
-import './loginpage.css';
+import './landingpage.css';
 import Logo from '../../images/dog.png';
 
 class LandingPage extends Component {
     render() {
+        
+        function handleClick(e) {
+            e.preventDefault();
+            console.log('The link was clicked.');
+        }
+
         return (
             <div>
                 <div className="titleContainer">
@@ -14,8 +20,8 @@ class LandingPage extends Component {
                     <img className="logo bounce" src={Logo} alt="Logo"/>
                 </div>
                 <div className="buttonCont">
-                    <span className="button">Login</span>
-                    <span className="button button2">Sign Up</span>
+                    <button onClick={handleClick} className="button">Login</button>
+                    <button className="button button2">Sign Up</button>
                 </div>
             </div>
         )
