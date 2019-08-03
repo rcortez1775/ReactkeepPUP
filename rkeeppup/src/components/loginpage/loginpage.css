@@ -47,16 +47,16 @@
 .button {
     background-color: #eee2dc;
     color: #000000;
-    border: 2px solid #000000;
     padding: 10px;
     font-family: 'Londrina Solid', cursive;
     font-size: 25px;
-    border-radius: 5%;
+    border-radius: 50px 50px;
     margin: auto;
     display: block;
     width: 60%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
 .buttonCont {
