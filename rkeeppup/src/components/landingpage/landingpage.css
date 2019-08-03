@@ -1,17 +1,27 @@
 .title {
-    font-size: 90px;
-    font-family: 'Londrina Solid', cursive;
+    font-size: 85px;
+    font-family: 'Gaegu', cursive;
     color: #000000;
-    margin-bottom: 0.5em;
+    margin-bottom: -20px;
     text-align: center;
 }
 
 .logoCont {
     text-align: center;
+    margin-bottom: 2em;
+    margin-top: 5em;
+}
+
+.slogan {
+    font-family: 'Gaegu', cursive;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
 }
 
 .logo {
-    width: 180px;
+    width: 200px;
 }
 
 .bounce {
@@ -19,6 +29,32 @@
 	-webkit-animation: bounce 2s infinite;
 	-moz-animation: bounce 2s infinite;
 	-o-animation: bounce 2s infinite;
+}
+
+.button {
+    background-color: #eee2dc;
+    color: #000000;
+    padding: 10px;
+    font-family: 'Gaegu', cursive;
+    font-size: 20px;
+    border-radius: 50px 50px;
+    margin: 10px;
+    border: 2px solid #000000;
+    display: inline-block;
+    width: 40%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    box-shadow: 0px 15px 10px -15px #111;
+}
+
+.buttonCont {
+    text-align: center;
+    margin-top: 2.5em;
+    width: 90%;
+    padding: 20px;
+    margin: auto;
 }
 
 @-webkit-keyframes bounce {
@@ -42,24 +78,4 @@
 	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
 	40% {transform: translateY(-30px);}
 	60% {transform: translateY(-15px);}
-}
-
-.button {
-    background-color: #eee2dc;
-    color: #000000;
-    padding: 10px;
-    font-family: 'Londrina Solid', cursive;
-    font-size: 25px;
-    border-radius: 50px 50px;
-    margin: auto;
-    display: block;
-    width: 60%;
-    margin-bottom: 20px;
-    cursor: pointer;
-    outline: none;
-}
-
-.buttonCont {
-    text-align: center;
-    margin-top: 2.5em;
 }

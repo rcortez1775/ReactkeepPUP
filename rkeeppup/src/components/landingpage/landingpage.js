@@ -15,13 +15,14 @@ class LandingPage extends Component {
             <div>
                 <div className="titleContainer">
                     <p className="title">keep[PUP]</p>
+                    <p className="slogan">Track. Store. Share</p>
                 </div>
                 <div className="logoCont">
-                    <img className="logo bounce" src={Logo} alt="Logo"/>
+                    <img className="logo" src={Logo} alt="Logo"/>
                 </div>
                 <div className="buttonCont">
                     <button onClick={handleClick} className="button">Login</button>
-                    <button className="button button2">Sign Up</button>
+                    <button onClick={handleClick} className="button">Sign Up</button>
                 </div>
             </div>
         )
