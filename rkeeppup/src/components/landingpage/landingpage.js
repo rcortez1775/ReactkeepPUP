@@ -18,7 +18,7 @@ class LandingPage extends Component {
                     <p className="slogan">Track. Store. Share</p>
                 </div>
                 <div className="logoCont">
-                    <img className="logo" src={Logo} alt="Logo"/>
+                    <img className="logo bounce" src={Logo} alt="Logo"/>
                 </div>
                 <div className="buttonCont">
                     <button onClick={handleClick} className="button">Login</button>

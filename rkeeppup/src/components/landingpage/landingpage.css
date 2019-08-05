@@ -32,7 +32,7 @@
 }
 
 .button {
-    background-color: #eee2dc;
+    background-image: -webkit-linear-gradient(90deg, #bab2b5 10%, #eee2dc 70%);
     color: #000000;
     padding: 10px;
     font-family: 'Gaegu', cursive;
