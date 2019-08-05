@@ -1,0 +1,63 @@
+.welcome {
+    font-size: 55px;
+    font-family: 'Gaegu', cursive;
+    color: #000000;
+    margin-top: 1em;
+    /* margin-bottom: -20px; */
+    text-align: center;
+}
+
+.login {
+    font-family: 'Gaegu', cursive;
+    text-align: center;
+    font-size: 25px;
+    margin-top: -60px;
+}
+
+label {
+    font-size: 20px;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.formCont {
+    width: 55%;
+    margin: auto;
+    margin-top: 3em;
+    padding: 30px;
+    font-family: 'Gaegu', cursive;
+    border-radius: 15px 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.submit {
+    background-image: -webkit-linear-gradient(90deg, #bab2b5 10%, #eee2dc 70%);
+    color: #000000;
+    padding: 10px;
+    font-family: 'Gaegu', cursive;
+    font-size: 20px;
+    border-radius: 50px 50px;
+    margin: auto;
+    border: 2px solid #000000;
+    width: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 600;
+    box-shadow: 0px 15px 10px -15px #111;
+}
+
+.buttonCont {
+    text-align: center;
+}
+
+.pup {
+    width: 230px;
+    bottom: 0;
+    position: absolute;
+}
