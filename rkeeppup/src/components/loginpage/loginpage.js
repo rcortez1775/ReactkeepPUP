@@ -2,23 +2,28 @@ import { Component } from "react";
 import React from 'react';
 import './loginpage.css';
 import LadyNPup from '../../images/pet.png';
+import Previous from '../../images/previous.png';
 
 class loginpage extends Component {
     render() {
         return (
             <div>
                 <div>
+                    <img className="previous" src={Previous} alt="previous"/>
+                    <p className="back">Back</p>
+                </div>    
+                <div>
                     <p className="welcome">Welcome back!</p>
                     <p className="login">Log in here.</p>
                 </div>
                 <div className="formCont">
                     <form>
-                        <label for="fname">Username:</label>
-                        <input type="text" id="fname" name="fname"/>
-                        <label for="lname">Password:</label>
-                        <input type="text" id="lname" name="lname"/>
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username"/>
+                        <label for="pass">Password:</label>
+                        <input type="password" id="pass" name="password" minLength="8" required/>
                         <div className="buttonCont">
-                            <button className="submit">Submit</button>
+                            <button type="submit" className="submit">Submit</button>
                         </div>    
                     </form>
                 </div>
