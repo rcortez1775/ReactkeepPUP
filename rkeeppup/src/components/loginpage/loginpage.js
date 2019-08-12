@@ -1,16 +1,18 @@
-import { Component } from "react";
-import React from 'react';
+import React, { Component } from "react";
 import './loginpage.css';
 import LadyNPup from '../../images/pet.png';
 import Previous from '../../images/previous.png';
+import {Link} from 'react-router-dom';
 
 class loginpage extends Component {
     render() {
         return (
             <div>
                 <div>
+                <Link to="/">
                     <img className="previous" src={Previous} alt="previous"/>
                     <p className="back">Back</p>
+                </Link> 
                 </div>    
                 <div>
                     <p className="welcome">Welcome back!</p>

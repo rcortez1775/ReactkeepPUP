@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import Home from './pages/home';
-import LoginPage from './pages/loginpage'
+import LoginPage from './pages/loginpage';
 import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter as Router} from 'react-router-dom';
 
