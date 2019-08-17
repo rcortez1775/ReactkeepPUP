@@ -9,7 +9,7 @@ import { Route, BrowserRouter as Router} from 'react-router-dom';
 const routing = (
     <Router>
       <Route exact path='/' component={Home}/>
-      <Route exact path='/loginpage' component={LoginPage}/>
+      <Route  path='/loginpage' component={LoginPage}/>
       {/* <Route exact path='/projects' component={Contact}/>
       <Route exact path='/contact' component={About}/>  */}
     </Router>

@@ -21,7 +21,7 @@ class Dashboard extends Component {
                     </div>
                     <div className="overlay-content">
                         <div className="instructions">
-                            <p>Welcome to your Dashboard</p>
+                            <p>Getting Started</p>
                         </div>
                     </div>
                 </div>
