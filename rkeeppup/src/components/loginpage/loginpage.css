@@ -20,7 +20,7 @@
     font-size: 55px;
     font-family: 'Gaegu', cursive;
     color: #000000;
-    margin-top: 0.5em;
+    margin-top: 0.2em;
     /* margin-bottom: -20px; */
     text-align: center;
 }
@@ -49,26 +49,25 @@ input {
     margin-top: 3em;
     padding: 30px;
     font-family: 'Gaegu', cursive;
-    border-radius: 15px 50px;
+    border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    background-color: #a3ee5d;
-    border: 3px solid #000000;
+    background-color: #d8d8d8;
 }
 
 .submit {
-    background-image: -webkit-linear-gradient(90deg, #bab2b5 10%, #eee2dc 70%);
+    background-image: -webkit-linear-gradient(90deg, #bab2b5 10%, #ffffff 70%);
     color: #000000;
     padding: 10px;
     font-family: 'Gaegu', cursive;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 50px 50px;
     margin: auto;
-    border: 2px solid #000000;
+    border: 1px solid #000000;
     width: 50%;
     margin-top: 20px;
     cursor: pointer;
     outline: none;
-    font-weight: 600;
+    font-weight: 500;
     box-shadow: 0px 15px 10px -15px #111;
 }
 
@@ -77,7 +76,9 @@ input {
 }
 
 .pup {
-    width: 230px;
-    bottom: 0;
-    position: absolute;
+    width: 70px;
+}
+
+.biscuitLogo {
+    text-align: center;
 }

@@ -4,13 +4,14 @@ import './landingpage.css';
 import Logo from '../../images/dog.png';
 import {Link} from 'react-router-dom';
 
+
 class LandingPage extends Component {
     render() {
         return (
             <div>
                 <div className="titleContainer">
                     <p className="title">keep[PUP]</p>
-                    <p className="slogan">Track. Store. Share</p>
+                    <p className="slogan">Store. Track. Share.</p>
                 </div>
                 <div className="logoCont">
                     <img className="logo bounce" src={Logo} alt="Logo"/>

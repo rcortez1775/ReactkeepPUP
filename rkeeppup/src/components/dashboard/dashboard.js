@@ -23,7 +23,7 @@ class Dashboard extends Component {
                     <div className="overlay-content">
                         <div className="instructions">
                             <p className="started">Getting Started</p>
-                            <p>Click on the "<img src={Add} className="add" alt="add"/>" icon to add pets.</p>
+                            <p>To add a pet, click on the "<img src={Add} className="add" alt="add"/>" icon.</p>
                         </div>
                     </div>
                 </div>

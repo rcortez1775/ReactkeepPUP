@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './loginpage.css';
-import LadyNPup from '../../images/pet.png';
+import Bones from '../../images/bones.png';
 import Previous from '../../images/previous.png';
 import {Link} from 'react-router-dom';
 
@@ -13,7 +13,10 @@ class loginpage extends Component {
                     <img className="previous" src={Previous} alt="previous"/>
                     <p className="back">Back</p>
                 </Link> 
-                </div>    
+                </div> 
+                <div className="biscuitLogo">
+                    <img className="pup" src={Bones} alt="Bones"/>
+                </div>  
                 <div>
                     <p className="welcome">Welcome back!</p>
                     <p className="login">Log in here.</p>
@@ -28,9 +31,6 @@ class loginpage extends Component {
                             <button type="submit" className="submit">Submit</button>
                         </div>    
                     </form>
-                </div>
-                <div>
-                    <img className="pup" src={LadyNPup} alt="Pup"/>
                 </div>
             </div>
         )
