@@ -11,7 +11,7 @@ class loginpage extends Component {
                 <div>
                 <Link to="/" className="link">
                     <img className="previous" src={Previous} alt="previous"/>
-                    <p className="back">Back</p>
+                    
                 </Link> 
                 </div> 
                 <div className="biscuitLogo">
