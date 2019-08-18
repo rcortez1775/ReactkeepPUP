@@ -51,9 +51,15 @@
 .overlay-content {
     position: relative;
     top: 1%;
-    width: 100%;
+    width: 90%;
+    margin: auto;
     text-align: center;
     color: #adadad;
+}
+
+.started {
+    font-size: 35px;
+    font-weight: 400;
 }
 
 /* The navigation links inside the overlay */

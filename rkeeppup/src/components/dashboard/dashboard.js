@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import './dashboard.css';
 import Faq from '../../images/faq.png';
 import Close from '../../images/close.png';
+import Add from '../../images/whiteadd.png';
 
 class Dashboard extends Component {
     render () {
@@ -21,7 +22,8 @@ class Dashboard extends Component {
                     </div>
                     <div className="overlay-content">
                         <div className="instructions">
-                            <p>Getting Started</p>
+                            <p className="started">Getting Started</p>
+                            <p>Click on the "<img src={Add} className="add" alt="add"/>" icon to add pets.</p>
                         </div>
                     </div>
                 </div>
