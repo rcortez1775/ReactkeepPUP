@@ -1,8 +1,5 @@
 import React, {Component} from 'react';
 import './App.css';
-import LandingPage from './components/landingpage/landingpage';
-// import LoginPage from './components/loginpage/loginpage';
-// import Dashboard from './components/dashboard/dashboard';
 
 
 

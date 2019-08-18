@@ -9,7 +9,7 @@ class loginpage extends Component {
         return (
             <div>
                 <div>
-                <Link to="/">
+                <Link to="/" className="link">
                     <img className="previous" src={Previous} alt="previous"/>
                     <p className="back">Back</p>
                 </Link> 

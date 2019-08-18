@@ -1,12 +1,16 @@
 .previous {
-    width: 35px;
+    width: 30px;
     margin-top: 10px;
     padding-left: 10px;
 }
 
+.link {
+    text-decoration: none;
+}
+
 .back {
     font-family: 'Gaegu', cursive;
-    font-size: 25px;
+    font-size: 22px;
     color: #000000;
     padding-left: 10px;
     margin-top: -4px;
