@@ -4,6 +4,7 @@ import './index.css';
 import Home from './pages/home';
 import LoginPage from './pages/loginpage';
 import Dashboard from './pages/dashboard';
+import Signup from './pages/signup';
 import * as serviceWorker from './serviceWorker';
 import { Route, BrowserRouter as Router} from 'react-router-dom';
 
@@ -12,7 +13,7 @@ const routing = (
       <Route exact path='/' component={Home}/>
       <Route  path='/loginpage' component={LoginPage}/>
       <Route  path='/dashboard' component={Dashboard}/>
-      {/* <Route exact path='/contact' component={About}/>  */}
+      <Route  path='/signup' component={Signup}/> 
     </Router>
 );
 

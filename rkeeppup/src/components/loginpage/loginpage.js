@@ -1,17 +1,16 @@
 import React, { Component } from "react";
 import './loginpage.css';
 import Bones from '../../images/bones.png';
-import Previous from '../../images/previous.png';
+import Kennel from '../../images/dog-kennel.png';
 import {Link} from 'react-router-dom';
 
 class loginpage extends Component {
     render() {
         return (
             <div>
-                <div>
+                <div className="float">
                 <Link to="/" className="link">
-                    <img className="previous" src={Previous} alt="previous"/>
-                    
+                    <img className="previous" src={Kennel} alt="Kennel"/>
                 </Link> 
                 </div> 
                 <div className="biscuitLogo">
