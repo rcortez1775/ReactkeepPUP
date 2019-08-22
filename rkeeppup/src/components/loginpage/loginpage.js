@@ -21,9 +21,9 @@ class loginpage extends Component {
                     <p className="login">Log in here.</p>
                 </div>
                 <div className="formCont">
-                    <form>
+                    <form className="pure-form">
                         <label for="username">Username:</label>
-                        <input type="text" id="username" name="username"/>
+                        <input type="text" id="userName" name="username"/>
                         <label for="pass">Password:</label>
                         <input type="password" id="pass" name="password" minLength="8" required/>
                         <div className="buttonCont">

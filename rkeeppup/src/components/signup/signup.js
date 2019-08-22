@@ -22,11 +22,9 @@ class Signup extends Component {
 
                 <div className="signUp">
                     <form>
-                        <label for="firstName">First Name:</label>
-                        <input type="text" id="firstName" name="firstname"/>
-                        <label for="lastName">Last Name:</label>
-                        <input type="text" id="lastName" name="lastname"/>
-                        <label for="PetName">Pet's Name:</label>
+                        <label for="userName">Create a Username:</label>
+                        <input type="text" id="userName" name="userName"/>
+                        <label for="PetName">Enter your Pet's Name:</label>
                         <input type="text" id="petName" name="petname"/>
                     </form>
                     <div className="buttonCont">
