@@ -13,8 +13,8 @@ class Signup extends Component {
                         <img className="previous" src={Kennel} alt="Kennel"/>
                     </Link> 
                 </div> 
-                <div className="biscuitLogo">
-                    <img className="pup" src={Family} alt="Family"/>
+                <div className="familyLogo">
+                    <img className="pup2" src={Family} alt="Family"/>
                 </div>  
                 <div>
                     <p className="family">Join the Family!</p>
@@ -22,9 +22,11 @@ class Signup extends Component {
 
                 <div className="signUp">
                     <form>
-                        <label for="userName">Create a Username:</label>
+                        <label for="userName">Username:</label>
                         <input type="text" id="userName" name="userName"/>
-                        <label for="PetName">Enter your Pet's Name:</label>
+                        <label for="password">Password:</label>
+                        <input type="text" id="password" name="password"/>
+                        <label for="PetName">Pet's Name:</label>
                         <input type="text" id="petName" name="petname"/>
                     </form>
                     <div className="buttonCont">

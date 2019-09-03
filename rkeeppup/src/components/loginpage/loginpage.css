@@ -72,9 +72,13 @@ input {
 
 .pup {
     width: 70px;
+    padding: 10px;
 }
 
 .biscuitLogo {
     text-align: center;
     margin-top: 3em;
+    margin: auto;
+    width: 70px;
+    padding: 10px;
 }
