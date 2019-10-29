@@ -1,3 +1,8 @@
+.titleContainer {
+    margin-top: 4em;
+}
+
+/*Title*/
 .title {
     font-size: 50px;
     font-family: 'Fredoka One', cursive;
@@ -9,7 +14,7 @@
 
 .logoCont {
     text-align: center;
-    margin-top: 1em;
+    margin-top: 3em;
 }
 
 .logo {
@@ -25,7 +30,6 @@
 .slogan {
     color: #000000;
     font-family: 'Fredoka One', cursive;
-    color: #000000;
     text-align: center;
     font-size: 15px;
     letter-spacing: 2px;
@@ -33,6 +37,7 @@
 
 .signUpCont {
     text-align: center;
+    margin-top: 2em;
 }
 
 .button {
@@ -41,13 +46,13 @@
     letter-spacing: 2px;
     padding: 10px;
     font-family: 'Nunito', sans-serif;
-    font-size: 13px;
+    font-size: 14px;
     border-radius: 50px 50px;
     margin: 10px;
     width: 60%;
     cursor: pointer;
     outline: none;
-    box-shadow: 0px 15px 10px -15px rgb(80, 80, 80);
+    box-shadow: 0px 15px 10px -15px #505050;
 }
 
 .loginCont {
@@ -59,9 +64,12 @@
     right: 0;
 }
 
-.loginBtn {
+.loginBtn a {
     font-family: 'Nunito', sans-serif;
     font-size: 15px;
     cursor: pointer;
     outline: none;
+    text-decoration: none;
+    color: #000000;
+    display: inline-block;
 }

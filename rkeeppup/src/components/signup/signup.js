@@ -1,39 +1,34 @@
 import React, { Component } from "react";
 import './signup.css';
-import Kennel from '../../images/dog-kennel.png';
-import Family from '../../images/pet.png'
+import Kennel from '../../images/pet-house.png';
+import Background from '../../images/background.jpg'
 import {Link} from 'react-router-dom';
 
 class Signup extends Component {
     render () {
         return (
-            <div>
+            <div className="blueBG">
                 <div className="float">
                     <Link to="/" className="link">
                         <img className="previous" src={Kennel} alt="Kennel"/>
                     </Link> 
-                </div> 
-                <div className="familyLogo">
-                    <img className="pup2" src={Family} alt="Family"/>
-                </div>  
-                <div>
-                    <p className="family">Join the Family!</p>
                 </div>
-
+                <div>
+                    <p className="family">Join Us!</p>
+                    <p className="subTitle">Create your keepPUP Account</p>
+                </div>
                 <div className="signUp">
-                    <form>
-                        <label for="userName">Username:</label>
-                        <input type="text" id="userName" name="userName"/>
-                        <label for="password">Password:</label>
-                        <input type="text" id="password" name="password"/>
-                        <label for="PetName">Pet's Name:</label>
-                        <input type="text" id="petName" name="petname"/>
+                    <form> 
+                        <input placeholder="Username" type="text" id="userName" name="userName"/>
+                        <input placeholder="Password" type="text" id="password" name="password"/>
                     </form>
                     <div className="buttonCont">
-                            <button type="submit" className="createBtn">&#43; Create Account</button>
+                        <button type="submit" className="createBtn">&#43; Create Account</button>
                     </div> 
                 </div>
-            
+                <div className="bgImage">
+                    <img className="image" src={Background} alt="Family"/>
+                </div>  
             </div>
         )
     };
