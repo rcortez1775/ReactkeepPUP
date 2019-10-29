@@ -1,30 +1,26 @@
 import React, { Component } from "react";
 import './loginpage.css';
-import Bones from '../../images/bones.png';
-import Kennel from '../../images/dog-kennel.png';
+import Bones from '../../images/dog.png';
+import Kennel from '../../images/pet-house.png';
 import {Link} from 'react-router-dom';
 
 class loginpage extends Component {
     render() {
         return (
-            <div>
+            <div className="blue">
                 <div className="float">
-                <Link to="/" className="link">
-                    <img className="previous" src={Kennel} alt="Kennel"/>
-                </Link> 
+                    <Link to="/" className="link"><img className="previous" src={Kennel} alt="Kennel"/></Link> 
                 </div> 
-                <div className="biscuitLogo">
+                <div className="dogImage">
                     <img className="pup" src={Bones} alt="Bones"/>
-                </div>  
+                </div> 
                 <div>
                     <p className="welcome">Welcome back!</p>
-                    <p className="login">Log in here.</p>
                 </div>
                 <div className="formCont">
                     <form className="pure-form">
-                        <label for="username">Username:</label>
+                        <p className="login">Log in here.</p>
                         <input type="text" id="userName" name="username"/>
-                        <label for="pass">Password:</label>
                         <input type="password" id="pass" name="password" minLength="8" required/>
                         <div className="buttonCont">
                             <button type="submit" className="submit">Submit</button>

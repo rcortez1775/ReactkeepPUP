@@ -1,3 +1,14 @@
+.blue {
+    background:	#5479AD;
+    height: 100vh;
+}
+
+/*Home Button Container*/
+.float {
+    text-align: right;
+}
+
+/* Home Button Link*/
 .previous {
     width: 35px;
     margin-top: 10px;
@@ -5,80 +16,87 @@
     cursor: pointer;
 }
 
-.float {
-    text-align: right;
-}
-
+/*Link to Home Page*/
 .link {
     text-decoration: none;
 }
 
-
+/*Main Title*/
 .welcome {
-    font-size: 55px;
-    font-family: 'Gaegu', cursive;
-    color: #000000;
-    margin-top: 0.2em;
-    /* margin-bottom: -20px; */
+    font-size: 45px;
+    font-family: 'Fredoka One', cursive;
+    color: #fafafa;
+    margin-top: -0.5em;
     text-align: center;
+    
 }
 
+/*Subtitle*/
 .login {
-    font-family: 'Gaegu', cursive;
+    font-family: 'Fredoka One', cursive;
     text-align: center;
-    font-size: 25px;
-    margin-top: -60px;
-}
-
-label {
+    color: #5479AD;
     font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: -20px;
 }
 
+/*Input fields*/
 input {
-    width: 100%;
+    width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     box-sizing: border-box;
 }
 
-.formCont {
-    width: 55%;
-    margin: auto;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding: 20px;
-    font-family: 'Gaegu', cursive;
+.pure-form {
+    margin-top: 3em;
 }
 
+.formCont {
+    background: #fafafa;
+    border-top-right-radius: 53px;
+    border-top-left-radius: 53px;
+    margin-top: 4em;
+    padding: 20px;
+    font-family: 'Fredoka One', cursive;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+/*Submit Button*/
 .submit {
-    background-image: -webkit-linear-gradient(90deg, #bab2b5 10%, #ffffff 70%);
-    color: #000000;
+    background-color: #fafafa;
+    border: 2px solid #5479AD;
+    color: #5479AD;
+    letter-spacing: 2px;
     padding: 10px;
-    font-family: 'Gaegu', cursive;
-    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 14px;
     border-radius: 50px 50px;
     margin: auto;
-    border: 1px solid #000000;
-    width: 50%;
+    margin-bottom: 2em;
+    width: 60%;
     cursor: pointer;
     outline: none;
-    font-weight: 500;
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0px 15px 10px -15px #505050;
 }
 
 .buttonCont {
     text-align: center;
 }
 
-.pup {
-    width: 70px;
-    padding: 10px;
+/*Dog Image Container*/
+.dogImage {
+    text-align: center;
+    margin-top: 1em;
 }
 
-.biscuitLogo {
-    text-align: center;
-    margin-top: 3em;
-    margin: auto;
-    width: 70px;
+/*Dog Image*/
+.pup {
+    width: 250px;
     padding: 10px;
 }
