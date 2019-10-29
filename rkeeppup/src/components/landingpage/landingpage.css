@@ -1,81 +1,67 @@
 .title {
-    font-size: 80px;
-    font-family: 'Gaegu', cursive;
+    font-size: 50px;
+    font-family: 'Fredoka One', cursive;
     color: #000000;
-    margin-bottom: -20px;
+    margin-bottom: -15px;
     text-align: center;
+    letter-spacing: 3px;
 }
 
 .logoCont {
     text-align: center;
-    margin-bottom: 2em;
-    margin-top: 5em;
-}
-
-.slogan {
-    font-family: 'Gaegu', cursive;
-    color: #000000;
-    text-align: center;
-    font-size: 20px;
-    font-weight: 500;
+    margin-top: 1em;
 }
 
 .logo {
-    width: 200px;
+    width: 350px;
+    border-radius: 10%;
+    position: absolute;
+    left: 0px;
+    right: 0;
+    margin: auto;
+    z-index: -1;
 }
 
-.bounce {
-    animation: bounce 2s infinite;
-	-webkit-animation: bounce 2s infinite;
-	-moz-animation: bounce 2s infinite;
-	-o-animation: bounce 2s infinite;
+.slogan {
+    color: #000000;
+    font-family: 'Fredoka One', cursive;
+    color: #000000;
+    text-align: center;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+.signUpCont {
+    text-align: center;
 }
 
 .button {
-    background-image: -webkit-linear-gradient(90deg, #bab2b5 10%, #eee2dc 70%);
-    color: #000000;
+    background-color: #0060ED;
+    color: #fafafa;
+    letter-spacing: 2px;
     padding: 10px;
-    font-family: 'Gaegu', cursive;
-    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 13px;
     border-radius: 50px 50px;
     margin: 10px;
-    border: 1px solid #000000;
-    display: inline-block;
-    width: 40%;
-    margin-bottom: 20px;
+    width: 60%;
     cursor: pointer;
     outline: none;
-    font-weight: 500;
-    box-shadow: 0px 15px 10px -15px #111;
+    box-shadow: 0px 15px 10px -15px rgb(80, 80, 80);
 }
 
-.buttonCont {
+.loginCont {
+    bottom: 0;
     text-align: center;
-    margin-top: 2.5em;
-    width: 90%;
-    padding: 20px;
-    margin: auto;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
 }
 
-@-webkit-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}	
-	40% {-webkit-transform: translateY(-30px);}
-	60% {-webkit-transform: translateY(-15px);}
-}
- 
-@-moz-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-moz-transform: translateY(0);}
-	40% {-moz-transform: translateY(-30px);}
-	60% {-moz-transform: translateY(-15px);}
-}
- 
-@-o-keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {-o-transform: translateY(0);}
-	40% {-o-transform: translateY(-30px);}
-	60% {-o-transform: translateY(-15px);}
-}
-@keyframes bounce {
-	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
-	40% {transform: translateY(-30px);}
-	60% {transform: translateY(-15px);}
+.loginBtn {
+    font-family: 'Nunito', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
 }
