@@ -1,6 +1,6 @@
 /*Background Color*/
 .blueBG {
-    background: #00BCE9;
+    background: #CDEBF6;
     height: 100vh;
 }
 
@@ -51,6 +51,14 @@
     padding-top: 4em;
     font-family: 'Nunito', sans-serif;
     text-align: center;
+    z-index: 99;
+    position: absolute;
+    background: #fafafae7;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-top-right-radius: 53px;
+    border-top-left-radius: 53px;
 }
 
 .buttonCont {
@@ -60,13 +68,15 @@
 /*Create Account Button*/
 .createBtn {
     background-color: #fafafa;
-    color: #0060ED;
+    color: #5479AD;
     letter-spacing: 2px;
     padding: 10px;
     font-family: 'Nunito', sans-serif;
     font-size: 14px;
     border-radius: 50px 50px;
+    border: 2px solid #5479AD;
     margin: auto;
+    margin-bottom: 2em;
     width: 65%;
     cursor: pointer;
     outline: none;

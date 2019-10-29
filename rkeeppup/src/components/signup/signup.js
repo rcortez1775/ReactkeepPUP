@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import './signup.css';
 import Kennel from '../../images/pet-house.png';
-import Background from '../../images/background.jpg'
+import Background from '../../images/dogpark.png'
 import {Link} from 'react-router-dom';
 
 class Signup extends Component {
