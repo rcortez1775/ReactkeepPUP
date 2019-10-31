@@ -59,6 +59,7 @@
     bottom: 0;
     border-top-right-radius: 53px;
     border-top-left-radius: 53px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.8);
 }
 
 .buttonCont {
