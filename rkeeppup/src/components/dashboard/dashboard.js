@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import './dashboard.css';
-import Faq from '../../images/faq.png';
+import Faq from '../../images/question.png';
 import Close from '../../images/close.png';
 import Add from '../../images/whiteadd.png';
 
@@ -11,8 +11,8 @@ class Dashboard extends Component {
             nav.style.width = nav.style.width === '100%' ? '0%' : '100%';
         }
         return (
-            <div>
-                <div>
+            <div className="yellow">
+                <div className="faqCont">
                     <img onClick={displayNav} className="faq" src={Faq} alt="faq"/>
                 </div>
                 
@@ -28,7 +28,7 @@ class Dashboard extends Component {
                     </div>
                 </div>
 
-                <div>
+                <div className="dashboardCont">
                     <p className="dashboard">My</p>
                     <p className="dashboard2">Dashboard</p>
                 </div>

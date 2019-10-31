@@ -10,21 +10,21 @@
     font-size: 50px;
     text-align: center;
     font-family: 'Fredoka One', cursive;
-    color: #fafafa;
+    color: #ffffff;
     font-weight: 100;
     margin-top: 1em;
     margin-bottom: -15px;
     letter-spacing: 3px;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.404);
 }
 
 .subTitle {
     font-family: 'Fredoka One', cursive;
-    color: #fafafa;
+    color: #ffffff;
     text-align: center;
     font-size: 15px;
     letter-spacing: 2px;
-    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.404);
 }
 
 /*Icon Container*/

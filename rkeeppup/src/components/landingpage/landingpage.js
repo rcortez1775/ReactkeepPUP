@@ -17,7 +17,7 @@ class LandingPage extends Component {
                     <Link to="/signup"><button className="button">Get Started</button></Link>
                 </div>
                 <div className="logoCont">
-                    <img className="logo" src={Logo} alt="Logo"/>
+                    <Link to="/dashboard"><img className="logo" src={Logo} alt="Logo"/></Link>
                 </div>
                 <div className="loginCont">
                     <p className="loginBtn">Already a member? <Link to="/loginpage"><span className="loginBtn">Sign In</span></Link></p>

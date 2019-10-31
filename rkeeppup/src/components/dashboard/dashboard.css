@@ -1,36 +1,48 @@
+/*Background*/
+.yellow {
+    background: #FFC501;
+    height: 100vh;
+}
+
+.faqCont {
+    text-align: right;
+}
+
+/*Display Nav*/
 .faq {
-    position: fixed;
-    top: 15px;
-    right: 15px;
+    padding-top: 0.5em;
+    padding-right: 0.5em;
     width: 30px;
 }
 
+/*Title*/
 .dashboard {
+    font-size: 45px;
+    font-family: 'Fredoka One', cursive;
+    color: #fafafa;
     font-size: 50px;
-    margin-top: 40px;
     margin-left: 30px;
-    font-family: 'Gaegu', cursive;
-    color: #000000;
+    margin-top: 5px;
     width: 100px;
-    font-weight: 100;
+    text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
 }
 
 .dashboard2 {
-    font-size: 50px;
     margin-top: -70px;
     margin-left: 30px;
-    font-family: 'Gaegu', cursive;
-    color: #000000;
+    font-size: 45px;
+    font-family: 'Fredoka One', cursive;
+    color: #fafafa;
     width: 100px;
-    font-weight: 100;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 .pets {
-    font-size: 22px;
-    font-weight: 200;
-    font-family: 'Gaegu', cursive;
-    color: #000000;
+    font-size: 20px;
+    font-family: 'Fredoka One', cursive;
+    color: #fafafa;
     margin-left: 30px;
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
 }
 
 /* The Overlay (background) */
@@ -65,7 +77,7 @@
 /* The navigation links inside the overlay */
 .overlay a {
     padding: 1px;
-    font-family: 'Gaegu', cursive;
+    font-family: 'Fredoka One', cursive;
     font-size: 25px;
     color: #818181;
     display: block;
@@ -92,7 +104,7 @@
 }
 
 .instructions {
-    font-family: 'Gaegu', cursive;
+    font-family: 'Fredoka One', cursive;
     font-size: 25px;
     font-weight: 400;
 }
