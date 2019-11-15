@@ -141,6 +141,24 @@
     bottom: 0;
     right: 0;
     position: fixed;
-    padding-bottom: 0.5em;
-    padding-right: 0.5em;
+    padding-bottom: 0.6em;
+    padding-right: 0.6em;
+}
+
+#buttons {
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    margin-left: -50px;
+}
+
+.key {
+    display: inline;
+    margin: 15px;
+}
+
+.icon {
+    width: 50px;
 }
