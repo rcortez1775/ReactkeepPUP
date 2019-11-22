@@ -22,6 +22,14 @@ class Dashboard extends Component {
             var x = document.getElementById("buttons");
             x.style.display = x.style.display === 'none' ? 'block' : 'none';
         }
+        //This is the function that will display the activities
+        // function activityFunction(title) {
+        // //     var node = document.createElement("tr");
+        // //     document.getElementById("myTable").appendChild(node);
+        // //     var cell1 = document.createElement("td");
+        // //     document.getElementById("myTable").appendChild(cell1);
+        // //     console.log(cell1);
+        // // }
         return (
             <div className="yellow">
                 <div className="faqCont">
@@ -49,10 +57,15 @@ class Dashboard extends Component {
                 <div className="petCont">
                     <form className="pure-form">
                         <p className="pupTracker">Pup Tracker</p>
+                        
+                                <p className="activityBubble">Boba was walked at 2:00PM</p>
+                                <p className="activityBubble">Boba was fed at 8:10PM</p>
+                                <p className="activityBubble">Boba was walked at 8:30PM</p>
+                            
                     </form>
                     <div id="buttons">
-                        <div className="key"><img src={Medicine} className="icon" alt="medicine"/></div>
                         <div className="key"><img src={Walk} className="icon" alt="walk"/></div>
+                        <div className="key"><img src={Medicine} className="icon" alt="medicine"/></div>
                         <div className="key"><img src={Food} className="icon" alt="food"/></div>
                         <div className="key"><img src={Bath} className="icon" alt="bath"/></div>
                     </div>
