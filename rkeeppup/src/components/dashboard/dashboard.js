@@ -57,11 +57,10 @@ class Dashboard extends Component {
                 <div className="petCont">
                     <form className="pure-form">
                         <p className="pupTracker">Pup Tracker</p>
-                        
-                                <p className="activityBubble">Boba was walked at 2:00PM</p>
-                                <p className="activityBubble">Boba was fed at 8:10PM</p>
-                                <p className="activityBubble">Boba was walked at 8:30PM</p>
-                            
+                        <p className="activityBubble">Boba was bathed at 11:00AM</p>
+                        <p className="activityBubble">Boba was walked at 2:00PM</p>
+                        <p className="activityBubble">Boba was fed at 8:10PM</p>
+                        <p className="activityBubble">Boba was walked at 8:30PM</p>   
                     </form>
                     <div id="buttons">
                         <div className="key"><img src={Walk} className="icon" alt="walk"/></div>
